@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <link rel="stylesheet" href="form1.css"/>
+     </head>
+     <body>
+         <!-- Input Box  -->
+          <!-- Accessing The Texttual data -->
+     <form>
+         <label for="fullName">Full Name: </label>
+          <input 
+             placeholder="Enter Your Name"  
+             id="fullName" 
+             type="text"
+             required
+          />
+ 
+          <!-- Accessing the Number -->
+         <div class="mt-10">
+          <label for="age" >Age</label>
+          <input 
+           placeholder="Enter Your Age" 
+           id="age" 
+           class="ml-20"
+           type="number"
+           required
+ 
+           />
+         </div>
+ 
+ 
+         <!-- Radio Button -->
+ 
+         <div class="mt-10">
+             <span> Are you under  18 age ? </span>
+             <label>Yes</label>
+             <input type="radio"  required/>
+             <label>No</label>
+             <input type="radio"  required/>
+         </div>
+ 
+         <!-- Checkbox -->
+ 
+         <div class="mt-10">
+             <span> Select Preferred Location </span>
+             <label>Kanpur</label>
+             <input type="checkbox"/>
+             <label >Delhi</label>
+             <input type="checkbox" />
+             <label >Mumbai</label>
+             <input type="checkbox" />
+             <label >Bangalore</label>
+             <input type="checkbox" />
+         </div>
+         <div class="mt-10">
+             <label >Email</label>
+             <input type="email" placeholder="Enter email"/>
+        </div>
+        <div>
+            <label>DOB</label>
+            <input type="datetime-local">
+        </div>
+        <div>
+            <label>Theme</label>
+            <input type="color"/>
+        </div>
+        <!-- type file -->
+        <div class="mt-10">
+            <label>upload your profile</label>
+            <input type="file">
+        </div>
+        
+ 
+ 
+         <!-- <button class="mt-10">Submit</button> -->
+          <input type="submit" value="Submit" class="mt-10"/>
+ 
+     </form>
+ 
+     </body>
+ </html>
